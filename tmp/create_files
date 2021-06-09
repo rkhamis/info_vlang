@@ -1,0 +1,21 @@
+#!/bin/bash
+
+split -p "##" ./docs.md file-out-
+
+mkdir tmp
+mkdir tmp2
+
+for name in $(ls)
+do
+	raw_file_name=$(head -n 1 $name)
+	file_name=`echo $raw_file_name | sed 's/\ /_/g'`
+	echo "-[$file_name]($file_name)" >> ./tmp/sidebar.md
+	cp $name ./tmp/$file_name.md
+
+	file_name=`echo $raw_file_name | sed 's/[#,*:]//g'  | sed 's/\ /_/g' | sed 's/\_//'`
+	cp $name ./tmp2/$file_name.md
+
+	echo $file_name
+	echo "-[$file_name]($file_name)" >> ./tmp2/sidebar.md
+done
+rm -fr file-out-*
