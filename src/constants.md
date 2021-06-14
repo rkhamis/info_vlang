@@ -55,3 +55,5 @@ println(blue)
 
 Global variables are not normally allowed, so this can be really useful.
 
+See:
+- [Required Module Prefix](required_module_prefix)

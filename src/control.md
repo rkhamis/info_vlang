@@ -22,3 +22,5 @@ memory manually. (See [attributes](#attributes)).
 _Note: right now autofree is hidden behind the -autofree flag. It will be enabled by
 default in V 0.3. If autofree is not used, V programs will leak memory._
 
+further reading:
+- [Examples](memory_management_examples)

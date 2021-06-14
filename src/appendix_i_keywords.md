@@ -45,5 +45,5 @@ union
 unsafe
 __offsetof
 ```
-See also [Types](#types).
+See also [Types](types).
 

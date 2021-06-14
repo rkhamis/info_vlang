@@ -43,3 +43,5 @@ surrounding code).
 
 * Note: This is work in progress.
 
+further reading:
+- [Structs With Reference Fields](structs_with_reference_fields)

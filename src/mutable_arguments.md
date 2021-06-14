@@ -48,3 +48,6 @@ Only more complex types such as arrays and maps may be modified.
 Use `user.register()` or `user = register(user)`
 instead of `register(mut user)`.
 
+
+see: 
+- [Struct Update Syntax](struct_update_syntax)

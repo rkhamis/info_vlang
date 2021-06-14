@@ -11,3 +11,6 @@ The developer doesn't need to change anything in their code. "It just works", li
 Python, Go, or Java, except there's no heavy GC tracing everything or expensive RC for
 each object.
 
+further reading:
+- [Control](control)
+    - [Examples](memory_management_examples)

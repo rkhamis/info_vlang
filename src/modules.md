@@ -40,3 +40,8 @@ fn main() {
 * You can create modules anywhere.
 * All modules are compiled statically into a single executable.
 
+
+further reading:
+- [`init` Functions](`init`_functions)
+- ['Manage Packages'](manage_packages)
+- ['Publish Packages](publish_package)

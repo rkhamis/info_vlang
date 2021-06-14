@@ -74,4 +74,3 @@ if resp := http.get('https://google.com') {
 ```
 Above, `http.get` returns a `?http.Response`. `resp` is only in scope for the first
 `if` branch. `err` is only in scope for the `else` branch.
-

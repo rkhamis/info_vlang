@@ -1,2 +1,12 @@
 ## Types 2
-
+  - [Interfaces](interfaces)
+    - [Casting An Interface](casting_an_interface)
+    - [Interface Method Definitions](interface_method_definitions)
+  - [Enums](enums)
+  - [Sum Types](sum_types)
+    - [Dynamic Casts](dynamic_casts)
+    - [Smart Casting](smart_casting)
+    - [Matching Sum Types](matching_sum_types)
+  - [Type Aliases](type_aliases)
+  - [Handling Otionals](handling_optionals)
+  - [Option/Result types and error handling](option_result_types_and_error_handling)

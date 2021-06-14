@@ -1,9 +1,9 @@
-### For loop
+#### `for`/`in`
 
-V has only one looping keyword: `for`, with several forms.
+This is the most common form. You can use it with an array, map or
+numeric range.
 
-further reading:
-- [For/In](for_in)
+see further:
     - [Array `for`](array_`for`)
     - [Map `for`](map_`for`)
     - [Range `for`](range_`for`)
