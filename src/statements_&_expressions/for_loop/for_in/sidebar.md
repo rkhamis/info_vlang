@@ -21,7 +21,6 @@
     - [Array Properties](array_properties)
     - [Array Initialization](array_initialization)
     - [Array Types](array_types) 
-    <- example code>
     - [Multidimensional Arrays](multidimensional_arrays)
     - [Array Operations](array_operations)
     - [Array Methods](array_methods)
